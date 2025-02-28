@@ -157,7 +157,7 @@ function changeLanguage(lang) {
             document.querySelector(".start_button").innerText = data.start_button
             document.querySelector(".new_reading").innerText = data.new_reading
             document.getElementById("question").placeholder = data.placeholder
-            document.getElementById("question2").placeholder = data.placeholder
+            document.getElementById("questionReset").placeholder = data.placeholder
             document.getElementById("infoPanel").innerHTML = data.info_text
             cardDescriptions = data.cardDescriptions
         })
@@ -187,6 +187,19 @@ function generateReading() {
     }
 
     showResult(absoluteNum, pairs)
+
+    const questionResetInput = document.getElementById("questionReset")
+    const resetButton = document.querySelector(".new_reading")
+
+    function validateResetInput() {
+        if (questionResetInput.value.trim().length > 5) {
+            resetButton.disabled = false
+        } else {
+            resetButton.disabled = true
+        }
+    }
+
+    questionResetInput.addEventListener("input", validateResetInput)
 }
 
 function showResult(absoluteNum, minorNums) {
@@ -208,25 +221,32 @@ function showResult(absoluteNum, minorNums) {
     const minorCardsDiv = document.getElementById('minorCards')
     minorCardsDiv.innerHTML = ''
 
-    minorNums.forEach(num => {
-        const cardEl = document.createElement('div')
-        cardEl.className = 'card'
-        cardEl.onclick = () => showPopup(num)
+    for (let i = 0; i < minorNums.length; i += 2) {
+        const rowDiv = document.createElement('div')
+        rowDiv.className = 'card-row'
 
-        cardEl.innerHTML = `
-        <img src="images/minor${num}.webp" alt="Element ${num}">
-        <div class="card-name">Стихія ${num}</div>
-        `
-        minorCardsDiv.appendChild(cardEl)
-    });
+        minorNums.slice(i, i + 2).forEach(num => {
+            const cardEl = document.createElement('div')
+            cardEl.className = 'card_container'
+            cardEl.onclick = () => showPopup(num)
 
-    // Тут можна реалізувати анімацію поступового зникнення «екрану завантаження»
-    // У цьому прикладі ми відразу показуємо result-screen, але можна
-    // підключити CSS-анімації або fade-in/out.
+            cardEl.innerHTML = `
+                <div class="card" onclick="showPopup('${num}')">
+                    <div>${num}</div>
+                    <img src="images/minor${num}.webp" alt="Element ${num}" 
+                        onerror="this.onerror=null; this.src='images/absolute0.webp';">
+                    <div class="card-name">${cardDescriptions[num].name}</div>
+                </div>
+            `
+            rowDiv.appendChild(cardEl)
+        })
+
+        minorCardsDiv.appendChild(rowDiv)
+    }
 }
 
 function showPopup(cardNum) {
-    const desc = cardDescriptions[cardNum]
+    const desc = cardDescriptions[cardNum].description
 
     document.getElementById('popupText').innerText = desc
     document.getElementById('popupBg').style.display = 'flex'
