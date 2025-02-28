@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: radial-gradient(
+        circle,
+        rgb(13, 13, 13), 
+        rgb(26, 26, 26),
+        rgb(34, 34, 34),
+        rgba(13, 13, 13, 0.9), 
+        rgba(13, 13, 13, 0.8),
+        rgba(13, 13, 13, 0.7),
+        rgba(13, 13, 13, 0.6),
+        rgba(13, 13, 13, 0.5),
+        rgba(13, 13, 13, 0.4),
+        rgba(13, 13, 13, 0.3),
+        rgba(13, 13, 13, 0.2),
+        rgba(13, 13, 13, 0.1)
+    );
+    background-size: 400% 400%;
+    animation: smoothFog 40s ease-in-out infinite;
+    color: #eee;
+    font-family: 'Cinzel', serif;
+}
+
+@keyframes smoothFog {
+    0% { background-position: 0% 0%; }
+    25% { background-position: 40% 60%; }
+    50% { background-position: 100% 99%; }
+    75% { background-position: 61% 41%; }
+    100% { background-position: 0% 0%; }
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/DCVu.gif');
+    animation: foggyLayer 50s ease-in-out infinite;
+    opacity: 0.2;
+    filter: blur(9px);
+    pointer-events: none;
+}
+
+header, footer {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: rgba(20, 20, 20, 0.8);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #f0e68c;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_btn {
+    background: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.dropdown_btn:hover {
+    background: #666;
+    transition: 1s;
+}
+
+.dropdown_btn:not(:hover) {
+    background: #444;
+    transition: 1s;
+}
+
+.dropdown-content {
+    position: absolute;
+    background: rgba(30, 30, 30, 0.5);
+    min-width: 150px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    z-index: 10;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    visibility: hidden;
+}
+
+.dropdown-content button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.dropdown-content button:hover {
+    background: rgba(255, 215, 0, 0.2);
+    transition: 1s;
+}
+
+.dropdown-content button:not(:hover) {
+    background: transparent;
+    transition: 1s;
+}
+
+.language-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.language-dropdown.active .dropdown-content {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+
+.info_button {
+    background: rgba(20, 20, 20, 0);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.info_button:hover {
+    background: #666;
+    transition: 1s;
+}
+
+.info_button:not(:hover) {
+    background: rgba(20, 20, 20, 0);
+    transition: 1s;
+}
+
+.info-panel {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    visibility: hidden;
+}
+
+.info-panel.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.typing {
+    font-family: 'Courier New', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #ffffff;
+    animation: blinkCursor 0.8s step-end infinite;
+}
+
+@keyframes blinkCursor {
+    50% { border-color: transparent; }
+}
+
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    text-align: center;
+    padding: 1rem;
+}
+
+.start_button {
+    background: linear-gradient(45deg, #a00, #f00);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 2rem;
+    animation: pulse 2s infinite;
+}
+
+.start_button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+.input-error {
+    animation: shake 0.3s ease-in-out;
+    border: 2px solid red;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+#result-screen {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card {
+    position: relative;
+    width: 120px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card-name {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.popup-bg {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+}
+
+.popup-content {
+    background: #222;
+    padding: 1rem;
+    max-width: 90%;
+    border: 1px solid #444;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.close_popup {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.new_reading {
+    margin-top: 2rem;
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.new_reading:hover {
+    background: #666;
+    transition: 1s;
+}
+
+.new_reading:not(:hover) {
+    background: #444;
+    transition: 1s;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 90px;
+    }
+    .card-name {
+        font-size: 0.8rem;
+    }
+    .mystic-button {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,415 @@
+{
+    "title": "Divination system ✨",
+    "logo": "🔮 90 elements",
+    "language_selector": "🌍 Choose language ▼",
+    "info_button": "ℹ️ About project",
+    "start_button": "Launch",
+    "close_popup": "Close",
+    "new_reading": "Reset. A new schedule of cards",
+    "placeholder": "Enter your question...",
+    "question_prompt1": "Are you ready?",
+    "question_prompt2": "Think of a question you want to get an answer to",
+    "info_text": "<p id='info-text'>This is a new fortune-telling system similar to Tarot. Just think clearly about your question and press the button. The cards will give you the answer. If you have problems interpreting the answer, you can ask for help from artificial intelligence (for example, ChatGPT). Modern AI systems are able to think abstractly and can interpret any signs of fate or mysterious dreams. If you develop your intuition, you will eventually not need a fortune-telling deck of cards.<br><br> Join my <a href='https://t.me/conspiracistNews'>Telegram channel.</a></p>",
+    "cardDescriptions": {
+        "0": {
+            "name": "Source of Everything. Freedom",
+            "description": "The boundless possibilities of this source of all existence can only be compared to its infinite inertia and apathy. It serves as the foundation for other energies, but like dark matter, it only manifests itself upon interaction with other forces. It is absolute indifference, yet it can fill any endeavor with inexhaustible energy. One only needs to set a direction. All roads are open, and any fantasy is possible - this is the true joker. Simply make a wish and take action - everything is in your hands. Nothing can stop your vector of movement. The alpha and omega, the root of everything, the father and mother of any fantasy, existence, and non-existence in one essence. This is the only element that can instantly create any universe you can imagine and, in the next moment, destroy it as if it never existed. It could… but it won’t. Because it doesn’t care. The eternal guardian of balance, the king of elements, or simply a sloth. Let nothing disturb its endless meditation."
+        },
+        "1": {
+            "name": "Absolute of Eternal Life",
+            "description": "Survive at any cost. If you ask this element, 'What is the meaning of life?', it will ironically reply, 'What is the meaning of death?' If nothing has meaning, then let it be life. This element is like grass growing through asphalt and concrete, but unlike ordinary grass, it cannot be killed. Some may call it weeds, but living weeds are better than dead flowers. This element is a true elixir of eternal life. In the teachings of 'Nante-Namar', there is a symbol for this absolute - the 'Key of Eternal Life.'"
+        },
+        "2": {
+            "name": "Absolute of Fusion",
+            "description": "Or the absolute of possession. Here arises the understanding of what is mine and what is not, where I am and where I am not. What is the point of something existing if I cannot possess it? Everything that exists must belong to me, or rather, be me. And if it is already mine, then, of course, I will take care of it, for it is a part of me. I am what I own. I feel that the world exists only because it is mine. My heart is not truly mine until I understand it as part of myself. This absolute erases the boundaries between ownership and personality. Everything you accept as yours becomes you. But do you own it, or does it own you? In human culture, it manifests through dualistic worldviews."
+        },
+        "3": {
+            "name": "Absolute Chaos",
+            "description": "The chaotic movement of this element can shift anything from a deadlock. Any structure will be turned into pure energy, like a blender, which will then serve as nourishment for something new. In Egyptian mythology, this energy is represented by Isfet—embodying this absolute."
+        },
+        "4": {
+            "name": "Absolute Order/Structure",
+            "description": "This world is so chaotic, let’s organize everything and put it on shelves. Mathematics is the queen of sciences; it can encase any phenomenon of being in numbers and formulas. Mathematics and numbers are manifestations of this absolute. Without order, evolution is impossible. This is the embodiment of the cosmic law of Ma'at."
+        },
+        "5": {
+            "name": "Absolute Uniqueness",
+            "description": "The universe is so gray and dull. Why does it exist at all? Let’s give everything the impulse of self-expression. There should be no copies. Every person, animal, tree, and stone will now be unique and strive for distinction. What can this be compared to? ...Perhaps it resembles a worldwide LGBTQ movement—all the colors of the rainbow and beyond. Individuality for the sake of individuality. In such a colorful variety, even the grayest and most inconspicuous entity will look special. Tastes are not to be argued about; everyone will find their own. The closest analogy in human culture is Hunab Ku, the divine principle of the Maya peoples."
+        },
+        "6": {
+            "name": "Absolute Perfection of Form",
+            "description": "I am the world. Self-love is a mandatory attribute of acquiring perfection in individual consciousness and its form. I am perfection itself, the embodied ideal, my beauty is flawless. This means I deserve the best in this world—everything I desire. Otherwise, why do I strive and work on myself? I am the only beautiful thing in this world. If someone thinks otherwise, they lie and must be destroyed. Egoism? - Perhaps. But where have you seen an ugly egoist or a non-egoistic beauty? This element gives you the opportunity to achieve perfection, but you must be ready to sacrifice everything and everyone. The whole world is just our toy. Self-realization through beauty and self-admiration is a necessary step toward transforming oneself into an ideal. To reach perfection, one must acknowledge oneself as the center of this process. Otherwise, it is no longer absolute, but merely a tendency toward harmony. The closest analogy in human culture is Taoism."
+        },
+        "7": {
+            "name": "Absolute Perfectionism",
+            "description": "I accept the existence of any manifestations in this world, but they must be flawless. Unlike the egoistic 'Absolute 6', we are ready to sacrifice ourselves for the beauty of the universe. Perfectionism is the manifestation of beauty in everything. Our credo: 'Beauty will save the world'. There is still no good or evil—only beauty and ugliness, which must be fought. Let the whole universe be like a masterpiece of art or a masterpiece of technical thought. But perfection always demands sacrifices. A parallel can be drawn with the Holy Spirit in Christianity."
+        },
+        "8": {
+            "name": "Absolute Synergy",
+            "description": "Sure, you can do everything alone, but why? Together we are strong and capable of incredible results. Let’s unite around something or someone and implement a project. It doesn’t matter what kind. Being alone is sad and lonely—thankfully, there are like-minded people with whom it is fun to create and destroy. One is not a warrior in the field. A single person is easy to break, but a group is much harder. The closest analogy in human culture is the Eight Gods of Fortune in Shintoism."
+        },
+        "9": {
+            "name": "Absolute of Meanings",
+            "description": "We seem to have everything to realize any idea, but what if there is no meaning in it? This element gives the initial cause, ideas, meanings, inspiration, and projects for any activity. It is the complete opposite of Element '0', which can do everything but wants nothing. Here, it’s the other way around—we have boundless imagination and the desire to do something, and we even know what exactly, like no one else. But do we have the resources for anything? And are there any willing participants? There was once a land of councils where everyone knew what to do and could help with advice. Advice, but nothing more. In our world, we can approach this element through philosophy. Everything has a cause and effect. We often see the effect but do not always recognize the cause. The closest analogy in human culture is the Akashic Records."
+        },
+        "10": {
+            "name": "Element of the Winner",
+            "description": "'Winning isn't everything—it's the only thing.' Victory at all costs. Those blessed by this energy will never know defeat. Only the result matters, and all means to achieve it are justified. No compromises—imposing one's will in any situation. Failure is simply not an option. Even if, for variety, you wish to let someone win, you won't succeed. This element ensures first place in everything. But victory can sometimes be Pyrrhic…"
+        },
+        "11": {
+            "name": "Element of Will",
+            "description": "Here, the focus is not on the result but on the journey—everything must submit to my will. Aggression, strength, arrogance, militancy, and stubbornness define this energy. One must conquer the world, dominate all, and destroy all obstacles. Unbreakable determination and unwavering intent. My will is not just a tool for achieving goals but a way of life, the only value in this world. Only my intent determines the order of things. Either my way or not at all. Even if it's wrong, it must be my way. The outcome doesn’t matter!"
+        },
+        "12": {
+            "name": "Element of Expansion",
+            "description": "One must be bigger, stronger, and penetrate everywhere possible. This energy is like a virus, multiplying uncontrollably and striving to occupy all available space. I must be everywhere. This energy also represents scaling and overcoming obstacles. If you have limitations, this energy helps to break through them. It symbolizes growth, advancement, and reaching the next level."
+        },
+        "13": {
+            "name": "Element of Destruction",
+            "description": "Tearing down is easier than building. But to create something new, the old must first be destroyed. Sometimes destruction is exhilarating. Let’s first clear the site, level the sandbox, and maybe later something new will be built. Or maybe not. Either way, it’s not our concern."
+        },
+        "14": {
+            "name": "Element of Domination",
+            "description": "We shall conquer this world to bring order to all corners of the universe. The eternal empire will shine in its zenith of glory, and nothing shall compare to its perfection. A perfect despotism. Every grain of sand, every person must become a cog in the system. If there are still barbarians somewhere, we will conquer them. If creativity exists, it must be systematized and fit within strict boundaries to serve the greater mechanism. For such is the will of the emperor and the purpose of the ideal empire."
+        },
+        "15": {
+            "name": "Element of Cultural Expansion",
+            "description": "Sometimes, on the runways of high fashion, one can see very strange things. Some architects design boldly. Art is subjective. But fashion follows its own rules and laws. Worlds can be conquered by fire and sword, but also by masterpieces of literature, music, etiquette, language, religion, rituals, and traditions. Let us impose our culture on these savages."
+        },
+        "16": {
+            "name": "Element of Ego",
+            "description": "Absolute confidence, self-admiration. What is good for me is good for all. I am the smartest and the most beautiful. Maybe that’s not true, but I don’t care. I refuse to change because I see no reason to—let others adjust to me, for I am kind. Other people's opinions have no value. Sometimes, to stand firm and find strength, you must disregard others and listen only to your desires. I am a slave to my desires, but only they bring me satisfaction, and thus, they are the meaning of life."
+        },
+        "17": {
+            "name": "Element of Dogma",
+            "description": "The light of truth shall penetrate every corner of the universe, even if no one asks for it. Many opinions may exist, but truth is singular. This energy is like a missionary following the conqueror, preaching its undeniable principles. Perhaps the Crusades were inspired by this energy."
+        },
+        "18": {
+            "name": "Element of Family",
+            "description": "This is family in a mafia sense — a clan, sect, or gang. Your own people are those within your circle, while the rest are enemies. For your own, everything; for outsiders, nothing. Only this way can survival be ensured. True brotherhood."
+        },
+        "19": {
+            "name": "Element of Focusing",
+            "description": "The philosophy of achievement and perseverance. Die if you must, but accomplish your goal. This is obsession with results, bordering on madness or fanaticism. The focus is locked on one objective. Concentration is a great strength, but excessive fixation on one thing may lead to losses in others. We are prepared for sacrifices—the goal justifies the means."
+        },
+        "20": {
+            "name": "Element of Abundance",
+            "description": "This element is the very embodiment of the cornucopia. An inexhaustible source of all blessings that one can imagine. Have you heard the legend of Midas? Well, that is but a pale shadow of what this energy represents."
+        },
+        "21": {
+            "name": "Element of Reproduction",
+            "description": "If we have everything, isn't it time to think about offspring? Let our children be our continuation, our legacy. We will live forever through our descendants! Or perhaps we establish a business, a grand venture that embodies our essence. Sometimes, our life’s work feels like our own child."
+        },
+        "22": {
+            "name": "Element of Consumption",
+            "description": "An insatiable desire to consume and accumulate everything in existence. An endless hunger and thirst, a black hole pulling everything in. Who knows, perhaps within a black hole lies an entirely new and unique world. We need all the resources of the universe for our survival and growth."
+        },
+        "23": {
+            "name": "Element of Adaptation",
+            "description": "Sometimes, conditions for survival are unfavorable, but this element ensures perfect adaptability to any challenges. The organism that knows how to adjust will always survive and succeed. This energy helps to escape any predicament."
+        },
+        "24": {
+            "name": "Element of Preservation",
+            "description": "The only value here is not to lose what has already been gained. We are satisfied with what we have—let us just preserve it. Resources and wealth must be guarded. This element also relates to fate, time, stability, cycles, history, and memory. In Greek mythology, the Titan Cronus represents this force."
+        },
+        "25": {
+            "name": "Element of Self-Reflection",
+            "description": "The sole purpose here is to answer the question, 'Who am I?' Who am I, and why am I in this world? What is the meaning of my existence, and what makes me unique? What sets me apart from others and why? A journey of self-discovery and endless reflection upon the self."
+        },
+        "26": {
+            "name": "Element of Self-Love",
+            "description": "Love begins here. The most fundamental and ancient form of love is self-love. We cannot truly love anyone or anything until we love ourselves. The harmony of inner self-acceptance is key."
+        },
+        "27": {
+            "name": "Element of Self-Realization",
+            "description": "What is my dharma and nature? What is my purpose? What should I do? Do I have a calling? If so, what is it? This element helps find oneself and one's path or points toward attaining perfect mastery."
+        },
+        "28": {
+            "name": "Element of Alliances",
+            "description": "Let’s find like-minded individuals. Is there anyone in this world who will not be our enemy and can become our ally? Maybe we will unite based on physical similarities, shared interests, or a common goal. Perhaps we have a mutual adversary or an unwanted factor? This is not friendship or love, but rather a mutually beneficial partnership. And often, the benefit is one-sided. 'Nothing personal—just business.'"
+        },
+        "29": {
+            "name": "Element of Personal Interest",
+            "description": "What is our benefit, and do I have a plan? What do I want, and what is the meaning of my existence? There must always be a desire, a direction, a purpose in life. My path must be unique and chosen without doubt. And it is, it always is. But everyone has their own. This element represents a self-sufficient worldview that requires no adjustments."
+        },
+        "30": {
+            "name": "Element of Change",
+            "description": "The motto of this energy: 'Movement is life!' And movement means constant change. Not for the sake of perfection, but change for change’s sake, to avoid stagnation. An endless space of possibilities, all of which must be explored. And if, by some miracle, we manage to try them all (which is impossible), we will start again. Some people love switching TV channels so much that they enjoy the act of switching more than watching the programs themselves. 'Clip thinking' is also about this."
+        },
+        "31": {
+            "name": "Element of Eternal Search",
+            "description": "An endless labyrinth of possibilities. TikTok, Tinder—this is their essence. The eternal pursuit of the best, which may not even exist. Here, it’s not about searching for the sake of searching, but for the goal. But how attainable is that goal? If there is a plan of action but no result, what do we get? Experience! This is the most experienced element—no matter what you do, this element already knows how it will end. It’s like the girl from the movie 'Interstate 60' who was endlessly searching for the perfect sexual partner. Experience has value, and a great one at that."
+        },
+        "32": {
+            "name": "Element of Innovation",
+            "description": "The birth of breakthrough ideas. We already have the necessary experience and a vision of what the result should be. Now we just need to develop a plan and take action. This element helps inventors, innovators, researchers, and scientists. There is no practicality or feasibility yet, only pure creativity. Science can also be an art. But this is not only about science."
+        },
+        "33": {
+            "name": "Element of Transformation",
+            "description": "Or the element of death. Death here is meant in the broadest sense of the word—as the fading away of something old or cleansing from the unnecessary. Suppose we already have a specific plan, the strength, determination, and even resources. But if you want to bring something new into life, you must first get rid of the clutter and all that is superfluous. Before building a new house, you must clear the site by demolishing the old one. Before starting a new relationship, you must let go of the previous one. To enter a new stage in life, you must end the previous one. This closely resembles the Hindu god Shiva."
+        },
+        "34": {
+            "name": "Element of Renewal",
+            "description": "You have everything needed to start a new life, a new stage, project, etc. Now, all that remains is to take action! The time has come; there will never be a more opportune moment. The situation has fully matured, and the world is ready for change. This element favors anyone trying to bring something new into old systems. Don't be afraid—there will be little resistance. And if there is, it will be insignificant. The initial result may not be perfect, but that’s okay—it can be improved later. The 'apartment renovation' was definitely worth it. This is a symbol of the beginning of a new life or a new phase."
+        },
+        "35": {
+            "name": "Element of Adaptation",
+            "description": "Or conformism. You can't please everyone or foresee every possible emergency—it's impossible. Especially when faced with radical changes. But this element states that over time, the new system will settle in, and sharp edges can be smoothed. The changes have begun; now, they just need to be made accessible to everyone. The new system must be flexible, universal, and ready for any challenges. This isn’t easy, but it’s entirely possible. The old system is gone, and the new one has successfully replaced it—now, we just need to adapt to it or adapt it to others."
+        },
+        "36": {
+            "name": "Element of Fine-Tuning",
+            "description": "Let’s make the changes 'turnkey' so that even the most demanding and spoiled subject is satisfied. Any product or service can be tailored so precisely to a picky client’s needs that they will be delighted. Any conservative will be disarmed by such an ideal personalized approach. In marketing, they say: 'Just take the client’s problem and solve it'. And that’s exactly what will happen. You can't create something universal that suits everyone, but you can make a unique solution for each individual, eliminating all flaws. This element is about innovation being so convenient and adapted to a specific case that it becomes irresistible."
+        },
+        "37": {
+            "name": "Element of Optimization",
+            "description": "Everything works perfectly, but what about the costs? Can we make it cheaper, take less time, or use fewer resources? How far can we go in optimizing something? That’s what we need to find out, because at this stage, it’s crucial. The details are what matter most."
+        },
+        "38": {
+            "name": "Element of Competition",
+            "description": "This is also the element of rivalry, of competition for self-improvement. Competitions can be athletic or otherwise. Competition helps to reveal the best. This element does not necessarily manifest as a struggle between business sharks. Children playing soccer in the yard are also competing, but their motivation is entirely different—they simply play for the joy of it. This element requires no motivation. 'Winning isn't the goal—participation is.'"
+        },
+        "39": {
+            "name": "Element of Anarchy",
+            "description": "Anarchy is the mother of order. Hidden harmony, the highest form of freedom. Freedom and innovation must be taken to the absolute. This will become our new religion or our new scientific doctrine. Chaos can be mathematically precise and necessary, philosophically speaking. Anarchy is not disorder; it is a level of organization so complex that few can perceive a system within it. But it exists! Freedom is not the opposite of order, but its highest form. Only what arises without coercion is true. This element denies all authorities, hierarchies, and externally imposed rules. It creates order without commands, harmony without directives. But can you handle it? Because without external control, there is only you and your ability to take responsibility for your own world."
+        },
+        "40": {
+            "name": "Element of Stability",
+            "description": "Everything new, everything different from us—is an act of aggression towards us. We do not like white crows; we do not need them. Everything is already perfect—no need to change anything, let everything remain as it is. Forever! Why should we deal with chaos, destruction, and turmoil? They only bring trouble. If everything is already good, why change anything?"
+        },
+        "41": {
+            "name": "Element of Punishment",
+            "description": "This element embodies the philosophy of any penitentiary system. If there is a rebel, a criminal, or simply a disturber of peace, they must be punished. Preferably harshly and demonstratively. Not because we are cruel, but because it is necessary—for the sake of others’ discipline. Otherwise, someone else might also get the idea to challenge us."
+        },
+        "42": {
+            "name": "Element of Isolation",
+            "description": "Sometimes, to achieve the best results, sterile isolated conditions are required. Isolation can also help preserve our uniqueness in its original form. Conducting certain important experiments often requires special conditions so that nothing and no one can interfere with the process or influence the results."
+        },
+        "43": {
+            "name": "Element of Coercion/Surveillance",
+            "description": "This is both the carrot and the stick. Coercion is an instrument of domination. This is not about a system of punishments but rather about a system of rewards and penalties. Soft power can be far more effective than brute force. Were you a good boy? Here’s a bonus. Were you a bad girl? Here’s a system of fines and restrictions. This is a system of total surveillance that does not require harsh measures because any disobedience can be eliminated at its root."
+        },
+        "44": {
+            "name": "Element of Precision",
+            "description": "Precision is the politeness of kings! This is the absolute of systematization in everything. No liberties. Act only according to the specified rules and submit properly completed reports on time. But absolute precision can lead to paranoia. A lack of precision leads to mistakes."
+        },
+        "45": {
+            "name": "Element of Bureaucracy",
+            "description": "Every process, event, or system component must be standardized. Every object or phenomenon must have its own regulation and instruction. Any process in a corporation or state must be strictly regulated so that everyone knows exactly what to do in every situation. If something unusual happens, a new rule or instruction must be created immediately; otherwise, chaos ensues."
+        },
+        "46": {
+            "name": "Element of Immunity",
+            "description": "This element protects law enforcement and the army. In a commercial structure, this pertains to security services or corporate protection. Any outsider must be immediately identified and neutralized. Those who come at us with a sword shall perish by the sword. Any structure must have teeth and be able to defend itself, just as the immune system of a biological organism always guards against bacteria, viruses, and other threats."
+        },
+        "47": {
+            "name": "Element of Self-Control",
+            "description": "What should be done if a system suffers from corruption, abuse of power, or inefficiency? And if the structure has become unbalanced? Someone must deal with it. We have forces for external enemies, but who will fight internal ones? This element is necessary for self-discipline, self-improvement, and optimizing internal processes."
+        },
+        "48": {
+            "name": "Element of Collective Decision-Making",
+            "description": "Or the element of consensus. If our structure is a family, then there must be a family council making decisions. Or perhaps it’s a blockchain-based system—either way, the principle remains the same. A well-established decision-making practice must exist. Even if one subject makes the decision, their opinion is still influenced by the collective. Consensus is necessary for any decision, or the system will not last long."
+        },
+        "49": {
+            "name": "Element of Charter/Principles",
+            "description": "Law and order. 'I am the king — I am above the law!' — No one can be above the law. Especially the king! This element represents constitutions and fundamental principles/laws. It is not about minor bureaucratic rules that often contradict themselves. It is the rock on which any serious organization must be built if it wishes to endure. Why have nomadic tribes and barbarian groups never been able to build long-lasting states? Because you cannot build a strong empire on the iron will of a despot. But it can be built on wise laws and strong state institutions."
+        },
+        "50": {
+            "name": "Element of Diversity",
+            "description": "Genetic diversity increases survival, and creative diversity makes this world beautiful. The universe could theoretically exist in monotony, but would it be enjoyable? And what’s the point of a world filled with sameness?"
+        },
+        "51": {
+            "name": "Element of Inspiration",
+            "description": "The element of the muse. No beauty or creativity is possible without inspiration. Inspiration is one of the primary reasons for creation. It can be a surge of high emotions or a wave of dark envy that pushes you to action."
+        },
+        "52": {
+            "name": "Element of Independence/Self-Sufficiency.",
+            "description": "A thing in itself. A self-sufficient phenomenon or object that can exist apart from everything else and still be beautiful. A Fabergé egg carries no inherent function or practical value but can decorate the space it inhabits. Or it may not be beautiful at all but still serve as an intriguing museum artifact or research subject. Why was it made? Simply because it could be. Don't search for meaning where there is none. This element is the embodiment of self-sufficiency."
+        },
+        "53": {
+            "name": "Element of Creativity",
+            "description": "This element is like hunger, a constant itch that drives you to create. Creation can stem from necessity or from an inner impulse. This element represents the latter. When under the influence of this energy, even making tea becomes an art form. The results may not always be great, but there will be many attempts!"
+        },
+        "54": {
+            "name": "Element of Image/Style",
+            "description": "Style is the younger sibling of fashion. While fashion is broad and global, style is more personal and defined. Style can belong to an organization (corporate style), an individual, a city (architectural style), or even a state (mentality, cultural style). It includes a certain degree of distinctiveness, but at the same time, it follows its own set of rules."
+        },
+        "55": {
+            "name": "Element of Marginality",
+            "description": "Marginals and holy fools. People whose culture, behavior, and lifestyle deviate so drastically from the norm that they are seen as outcasts. This element might be telling you to stop worrying about others’ opinions, even if they consider you strange. Or, on the other hand, maybe you don’t realize that you have long since crossed the boundary of common sense and should take notice."
+        },
+        "56": {
+            "name": "Element of Genius",
+            "description": "Not everyone can realize their genius. Most people never do. But this element hints that the talent is there. If you put in the effort, you can rise to the top. You will never be average—you’ll either be at the bottom or among the best. The choice is yours."
+        },
+        "57": {
+            "name": "Element of the Masterpiece",
+            "description": "A masterpiece is not always recognized in its time, but a masterpiece it remains. No one promises you riches and fame while you’re alive, but someday, your work will be appreciated. You are destined for greatness and renown—this element ensures it. Hopefully, you’ll live to enjoy the fruits of your labor. If not, someone else will."
+        },
+        "58": {
+            "name": "Element of Recognition",
+            "description": "You may not be the most intelligent or the most skilled, but if you consistently find yourself in the right place at the right time, success will follow. Every action you take will be valued and rewarded. This element turns any subject or phenomenon into a 'golden stock', a decisive factor or voice. Objectively, you are like everyone else, but you will be valued much more. The motto of this element: '20% effort yields 80% results.'"
+        },
+        "59": {
+            "name": "Element of Cultural Customs",
+            "description": "Culture follows its own laws. Small customs exist, such as daily habits, and large customs, such as the cultural traditions of nations or the etiquette that shapes Western civilization. All of them are important—they are the cultural code that people carry through centuries and millennia, a form of genetic memory."
+        },
+        "60": {
+            "name": "Element of Egoism",
+            "description": "Everything for me. The whole world revolves around me. I deserve the best. If not me, then who? Without egoism, personal growth is impossible."
+        },
+        "61": {
+            "name": "Element of Aggression",
+            "description": "I am the law—whatever benefits me is good for everyone. Therefore, only my personal boundaries matter. If someone stands in my way, they must be eliminated. I can do whatever I want, and nothing will happen to me. Who dares to challenge me?"
+        },
+        "62": {
+            "name": "Element of Parasitism",
+            "description": "Parasites are also a form of life. This element is the progenitor of all forms of vampirism. Some may find it unethical and unpleasant, but look at how much pop culture has flourished thanks to vampire stories. Maybe there is some meaning in this after all?"
+        },
+        "63": {
+            "name": "Element of Humor",
+            "description": "Have you heard of the Norse god Loki? This element is his favorite. All genres are good except boring ones. Humor can be both kind and cruel. Let’s stir things up! There’s a saying: 'The devil is God’s monkey'. Turn everything upside down, cause mischief, create chaos, and test this world for resilience. Why so serious? Relax and have fun. If the world cannot withstand it, no worries—someone will build a new one."
+        },
+        "64": {
+            "name": "Element of Obstacles",
+            "description": "Lies, manipulation, deception, cunning. Sometimes, to avoid trouble, you need to act preemptively and create trouble for someone else. 'If you don’t lie, you won’t survive.' This element has a dual meaning—it can teach you how to get out of any difficult situation, but it can also show you how to create these situations. This element is the father of deception. Sometimes, lying is for the greater good—but for whose good? Ours!"
+        },
+        "65": {
+            "name": "Element of Narcissism",
+            "description": "'Mirror, mirror on the wall, who is the fairest of them all?' Beauty will save the world, but what if it's selfish beauty? This element shows what heights of self-improvement can be reached if you abandon ethics and morality. Forget about others—they are not worth your time. It’s time to think about yourself. To find true confidence, you must discard all criticism and self-doubt."
+        },
+        "66": {
+            "name": "Element of Absolute Evil",
+            "description": "There is no evil without good. The word 'malefic' describes one who chooses not the most beneficial option but the most harmful one. Demonologists believe in their supreme deity—Ahriman, the ancestor of all dark gods. He is here. Light cannot exist without darkness. This element is the quintessence of darkness, its very source. 'I am the force that forever wills evil and forever does good'. It is like a stress test for the entire universe, a department of quality assurance."
+        },
+        "67": {
+            "name": "Element of Pride",
+            "description": "Another nurturing ground for the ego. But is that a bad thing? Pride and ambition often push people to achieve great things. If you want to climb the hierarchical ladder, pride is essential. Public admiration is often won by the proud."
+        },
+        "68": {
+            "name": "Element of the Idol",
+            "description": "At the head of any cult must be a leader or a living idol (or non-living). And you shall become a true living icon. You must become one. A cult of personality or a religious movement—all about concentrating admiration on one person, object, or phenomenon. You must either create an idol for yourself or become one."
+        },
+        "69": {
+            "name": "Element of Nihilism",
+            "description": "Everything passes, nothing has meaning, nothing is eternal under the moon. We owe nothing to anyone. The only thing of value is our life. Or is it? If nothing matters, then why worry? The philosophy of indifference. Do whatever you want, and let fate decide the rest."
+        },
+        "70": {
+            "name": "Element of Justice",
+            "description": "Justice is our religion. Our only meaning in life and motivation is to live justly, to promote justice, seek it, and even sacrifice ourselves for it. This element is also known as the element of truth. 'Socrates is my friend, but truth is dearer.' But what is truth? That depends on the perspective."
+        },
+        "71": {
+            "name": "Element of Trials",
+            "description": "Nothing in this world comes easily; everything must be earned. To achieve something or claim more, one must first prove their worth. How do we separate the worthy from the unworthy? How do we create conditions for qualitative or personal growth? This is not natural selection—it is an entirely artificial process of refinement."
+        },
+        "72": {
+            "name": "Element of the Hermit",
+            "description": "A wise person does not engage in arguments or seek approval. 'The mouth of truth is silent to those who do not understand'. When one sees the world as it is, with all its flaws, a natural urge arises to distance oneself and live in solitude. Sometimes, to comprehend the depths of the universe, silence and peace are required."
+        },
+        "73": {
+            "name": "Element of Revolution",
+            "description": "Death to tyrants and any form of injustice! 'We will build a new world, where those who were nothing will become everything'. Not just a new order, but one that is fair and righteous. This is not mere renewal but a qualitative evolutionary leap. Change accumulates gradually but manifests in sudden surges. This element favors radical, long-overdue improvements. Because it must be so."
+        },
+        "74": {
+            "name": "Element of Pragmatism",
+            "description": "Everything has been calculated and weighed. Every situation and object have been carefully considered. There is reason to do only what is necessary. A balanced approach yields results. Your heart may be passionate, but your mind must remain cold in every situation—otherwise, disaster follows. There is no room for heroics, romance, creativity, or surprises here. If an impromptu decision is needed, prepare for it in advance. If marriage, then only one based on logic. 'Measure seven times, cut once'. Profit does not always have to be individual—it can be collective. No reckless actions, no gambling on luck."
+        },
+        "75": {
+            "name": "Element of Worldview",
+            "description": "Everyone believes in their own form of justice, derived from their perception of reality. But vision is not necessarily correct. Even madmen have their own truths. Keep in mind, 'There are as many opinions as there are people'. Alternatively, never let others shake your beliefs. Perfection is unattainable, so everyone must have a core principle that defines them. Character is built on principles, and principles are rooted in worldview. The truth is whatever you believe it to be."
+        },
+        "76": {
+            "name": "Element of Morality",
+            "description": "'A samurai has no goal—only the path'. This is the element of unwavering principles. Everyone has their own sense of right and wrong. It can be called a code of honor. Some may dismiss it as nonsense, but if people are willing to die or kill for it, then it is clearly something significant. It is our inner compass that guides us through life. Everyone has one, though they differ. Excessive moralizing can lead to vigilantism. Perhaps that is for the best?"
+        },
+        "77": {
+            "name": "Element of Absolute Good",
+            "description": "What is good? It is pure rationality, perfect justice (as much as it can be), and blinding white light that disinfects everything in its path. A fanatical commitment to both internal and external purity. If you walk the path of virtue, you will be rewarded—but one misstep, and the consequences will be immediate. This element is the embodiment of an ideal, and ideals tolerate no flaws. This path is specific and difficult—not for everyone. But oh, what reverence it commands! And what folklore has been created in its honor. A parallel can be drawn to God the Father in Christianity."
+        },
+        "78": {
+            "name": "Element of Hierarchy",
+            "description": "Everyone must know their place. Their rightful place! Resources and benefits must be distributed according to social status/rank/position. Subordination is essential. 'You’re the boss—I’m the fool. I’m the boss—you’re the fool'. Order requires a vertical power structure. Commands from higher authorities must be executed first and only then challenged. Only in this way can a collective function as a single organism, just as an orchestra must follow a conductor to perform a symphony correctly."
+        },
+        "79": {
+            "name": "Element of Religion",
+            "description": "Or the element of faith. When morality aspires to a universal concept or a teaching, it transforms into religion. This element symbolizes an idealistic spiritual doctrine. There are devout followers, and there are those who simply integrate into the system and use it. Religion has its own laws, hierarchy, and leaders. It can be vast, involving billions, or a small sect with just a thousand followers. At its core is the doctrine, a guiding philosophy, rather than just a spiritual leader. A spiritual brotherhood can provide support in difficult times. But there is also a darker side. It is said, 'Want to get rich?—Invent your own religion.'"
+        },
+        "80": {
+            "name": "Element of Collectivism",
+            "description": "Sometimes, a shared goal is needed to unite people. Sometimes, simple sympathy is enough (this could be called the element of camaraderie). In any case, for some, living and working in a collective is more enjoyable. Not to mention that joint efforts often lead to greater or faster achievements. However, synergy is not always guaranteed—sometimes a collective functions like a swan, a crayfish, and a pike, all pulling in different directions."
+        },
+        "81": {
+            "name": "Element of the Project",
+            "description": "A great goal can unite even irreconcilable minds. If there is an exciting project, resources and executors will follow. A good idea ignites hearts and masses. At first, everything starts with a compelling presentation, then work begins, and large-scale construction takes off."
+        },
+        "82": {
+            "name": "Element of Sex",
+            "description": "Not for reproduction, but for pleasure. This is about the exchange of energies, fluids. Very few beings in the universe truly understand this element. In Indian philosophy, there is a concept of 'kama'. Some may call it vulgar, while for others, it is a vital part of existence. What is natural is not ugly."
+        },
+        "83": {
+            "name": "Element of Compromise",
+            "description": "The problem is that not everyone can have everything. Because there are too many people and not enough resources. So, agreements must be made. And that is possible. This element allows for negotiation, as much as possible. Show diplomacy, experience the power of negotiation. Now is the perfect time for deals, agreements, and resolving disputes."
+        },
+        "84": {
+            "name": "Element of Ethics",
+            "description": "This element is the progenitor of etiquette and social norms. Our law is the rules of decency and behavior. Politeness, refined manners, and a neat appearance are of utmost value. A well-spoken, articulate, and respectful manner of speech is worth its weight in gold. We are all different, and sometimes it is difficult to coexist. This element helps us navigate that challenge."
+        },
+        "85": {
+            "name": "Element of Mutual Aid",
+            "description": "Friendship. Despite our great differences, there are reasons that keep us together. Mutual sympathy, understanding, and the desire to help one another. It is easier to survive together, and life is more interesting this way. This is the element of symbiosis. Each organism seems to exist separately, yet they cannot live without each other—sometimes figuratively, sometimes literally."
+        },
+        "86": {
+            "name": "Element of the Closed Community",
+            "description": "'Before uniting, we must firmly separate'. A club for insiders, no outsiders allowed. This is a form of collective snobbery. A book club, a fight club, a club for women preparing for childbirth—all of these have a place. To create a comfortable atmosphere in a group, there should be no unnecessary people."
+        },
+        "87": {
+            "name": "Element of Love",
+            "description": "Here it is—the love everyone seeks. Not for gain, but true, absolute love! It includes self-sacrifice, empathy, and everything else. Some say that God is love. Maybe, but then this is God number 87. Love takes many forms: love for the opposite sex, love for one’s country, love for a friend, or love for a beloved pet. And what about love for a vintage motorcycle? That too is love—sacrificing time, money, and relationships with loved ones just to polish and repair the bike constantly."
+        },
+        "88": {
+            "name": "Element of Empathy",
+            "description": "Empathy is not just pity; it is the ability to feel another’s emotions, understand them, and walk in their shoes. We don’t need to love anyone—love is just a neurosis. But we can put ourselves in someone else’s place. Sometimes this takes extreme forms, where we stop thinking about ourselves and start living for others."
+        },
+        "89": {
+            "name": "Element of Pacifism",
+            "description": "Why do we need conflicts? We are all children of God, we are all one. 'Everything that is mine is yours, and everything you have, I should have too'. Your pain is my pain, your joy is my joy. There is no ground for conflict because your happiness is as important to me as my own."
+        },
+        "90": {
+            "name": "Element of Logic",
+            "description": "Surprisingly, there are many types of logic, but only three fundamental ones: linear, associative, and paradoxical. Linear logic is traditional, like a calculator. Associative logic is often more developed in women—it determines the emotional imprint of events. Paradoxical logic is controversial and complex—you can ask artificial intelligence about it. But no matter what, any thought process starts with logic."
+        },
+        "91": {
+            "name": "Element of Propaganda/Teacher",
+            "description": "Let’s impose our worldview on the world. What happens when a philosopher or intellectual becomes active? They turn into a propagandist or a teacher. The active attempt to plant the seeds of one’s 'truth' in others’ minds becomes propaganda. 'My philosophy is the only correct one'. Under a certain perspective, anything can be proven. An axiom does not require proof—it is self-sufficient, like a constant or a convention we accept as unshakable truth. But it is not the ultimate truth."
+        },
+        "92": {
+            "name": "Element of Fantasy",
+            "description": "'In the beginning was the Word', says the Bible. But a word without fantasy is impossible. Before acting, we must first imagine it in our minds. This element is the main producer of any performance. The screenwriter, producer, and director all in one. 'All the world’s a stage, and all the men and women merely players'. If our universe is just a theater and another form of virtuality, then who created it all, and most importantly—why? Fantasy is limitless, just like the space of possibilities. This makes the existence of the multiverse inevitable. Fantasy → idea/thought → word → action."
+        },
+        "93": {
+            "name": "Element of Discussion",
+            "description": "Here, people argue not for the sake of proving their rightness or ego. They simply enjoy the process—it’s an exchange of wisdom, experience, and information, as well as just a pleasant way to pass the time. No one shouts over each other or humiliates anyone. No one tries to measure their intellectual abilities. Here, truth is born through debate."
+        },
+        "94": {
+            "name": "Element of Science",
+            "description": "For atheists, science is comparable to God and religion. And that’s valid. Imagine the vast diversity of scientific fields and research. How much benefit scientific discoveries bring! It is an entire world with a massive following. Everything must be questioned and tested. If something is not proven by science, it does not exist."
+        },
+        "95": {
+            "name": "Element of Wisdom",
+            "description": "A wise person never rushes but is never late. They know everything yet do not worry—but that does not mean they are indifferent. A wise person always knows what to do, how to do it, and when to do it. And they always know how it will end. 'I love it when everything goes according to plan'. And if the plan fails, they always have a backup—better than the first. 'Great minds think alike'. But at the same time, no wise person is like another, as each of them is a vast abyss that a lifetime is not enough to explore."
+        },
+        "96": {
+            "name": "Element of Hedonism",
+            "description": "We are wise enough to use our intellectual abilities for our own benefit. A hut in the woods, a cave, or a monastery cell does not suit us—we deserve a better life. Our intellect must be properly appreciated—otherwise, what’s the point? Philosophizing and delivering eloquent speeches is best done in comfort and abundance. Slowly eating an olive—writing a poem; making love to a beautiful partner—then taking care of state affairs or teaching students. 'Life is great. And living well is even better.'"
+        },
+        "97": {
+            "name": "Element of Philosophy/Truth",
+            "description": "The search for truth—that’s what matters. Here, philosophy is not just the meaning of life but also a way of living. A lifelong journey. Every moment is dedicated to the altar of wisdom. There is no greater value."
+        },
+        "98": {
+            "name": "Element of Delegation",
+            "description": "What to do when one mind cannot contain all the information or handle all intellectual tasks? Then some tasks must be delegated to others. If you own a business but cannot take a month-long vacation without it collapsing, you don’t have a business—you have a job. Any computer or person specialized in one task will be far more useful than many generalists doing a little bit of everything."
+        },
+        "99": {
+            "name": "Element of Intellect/Information",
+            "description": "The eternal pursuit of knowledge and its accumulation. Literacy and erudition fall under this element. There is a concept called knowledge greed—the obsession with hoarding information. If this element takes hold of you, you will become a walking encyclopedia. It will be essential to scour the entire internet and study all of Wikipedia. Could this be Laplace’s Demon?"
+        }
+    }
+}
