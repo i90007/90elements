@@ -212,9 +212,10 @@ function showResult(absoluteNum, minorNums) {
 
     absoluteCardDiv.innerHTML = `
         <div class="card" onclick="showPopup('${absoluteNum}')">
-        <div>${absoluteNum}</div>
-        <img src="images/absolute${absoluteNum}.webp" alt="Absolute ${absoluteNum}">
-        <div class="card-name">${cardDescriptions[absoluteNum].name}</div>
+            <div>${absoluteNum}</div>
+            <img src="images/absolute${absoluteNum}.webp" alt="Absolute ${absoluteNum}">
+            <div class="img_box"></div>
+            <div class="card-name">${cardDescriptions[absoluteNum].name}</div>
         </div>
     `
 
@@ -234,7 +235,8 @@ function showResult(absoluteNum, minorNums) {
                 <div class="card" onclick="showPopup('${num}')">
                     <div>${num}</div>
                     <img src="images/minor${num}.webp" alt="Element ${num}" 
-                        onerror="this.onerror=null; this.src='images/absolute0.webp';">
+                            onerror="this.onerror=null; this.src='images/absolute0.webp';">
+                    <div class="img_box"></div>
                     <div class="card-name">${cardDescriptions[num].name}</div>
                 </div>
             `
@@ -257,9 +259,4 @@ function showPopup(cardNum) {
 function closePopup() {
     document.getElementById('popupBg').style.display = 'none'
     document.body.style.filter = 'none'
-}
-
-function resetReading() {
-    document.getElementById('result-screen').style.display = 'none'
-    document.getElementById('start-screen').style.display = 'flex'
 }
