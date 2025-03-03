@@ -187,6 +187,7 @@ header {
 }
 
 .typing {
+    height: 40px;
     font-family: 'Courier New', monospace;
     white-space: nowrap;
     overflow: hidden;
