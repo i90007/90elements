@@ -191,7 +191,7 @@ function generateReading(inputId) {
         }
     }
 
-    showResult(absoluteNum, pairs, questionText)
+    startAnimation(absoluteNum, pairs, questionText)
 
     const questionResetInput = document.getElementById("questionReset")
     const resetButton = document.querySelector(".new_reading")
@@ -281,4 +281,42 @@ function closePopup() {
     setTimeout(() => {
         popup.style.display = "none"
     }, 999)
+}
+
+function startAnimation(absoluteNum, pairs, questionText) {
+    const animationScreen = document.getElementById("animation-screen");
+    const floatingCardsContainer = document.getElementById("floating-cards");
+
+    floatingCardsContainer.innerHTML = ""
+
+    const totalCards = 90
+    const numberOfFlyingCards = 9
+    const defaultImage = "images/absolute0.webp"
+
+    const selectedCards = new Set();
+    while (selectedCards.size < numberOfFlyingCards) {
+        const randomCard = Math.floor(Math.random() * totalCards);
+        selectedCards.add(randomCard);
+    }
+
+    selectedCards.forEach(cardNumber => {
+        const imgSrc = `images/minor${cardNumber}.webp`;
+        const imgElement = document.createElement("img");
+        imgElement.src = imgSrc;
+        imgElement.classList.add("floating-card");
+
+        imgElement.style.left = Math.random() * 80 + "vw";
+        imgElement.style.animationDuration = Math.random() * 2 + 2 + "s";
+
+        imgElement.onerror = () => { imgElement.src = defaultImage; };
+
+        floatingCardsContainer.appendChild(imgElement);
+    });
+
+    animationScreen.style.display = "flex";
+
+    setTimeout(() => {
+        animationScreen.style.display = "none";
+        showResult(absoluteNum, pairs, questionText);
+    }, 3333);
 }
