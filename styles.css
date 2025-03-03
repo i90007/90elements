@@ -14,8 +14,7 @@ body {
         rgba(13, 13, 13, 0.5),
         rgba(13, 13, 13, 0.4),
         rgba(13, 13, 13, 0.3),
-        rgba(13, 13, 13, 0.2),
-        rgba(13, 13, 13, 0.1)
+        rgba(13, 13, 13, 0.2)
     );
     background-size: 400% 400%;
     animation: smoothFog 40s ease-in-out infinite;
@@ -234,7 +233,7 @@ header {
 
 @keyframes miniPulse {
     0% { transform: scale(1); }
-    50% { transform: scale(1.01); }
+    50% { transform: scale(1.02); }
     100% { transform: scale(1); }
 }
 
@@ -247,6 +246,10 @@ header {
     text-align: center;
     padding: 1rem;
     z-index: 1;
+}
+
+#questionDisplay {
+    height: 40px;
 }
 
 #absoluteCard {

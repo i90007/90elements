@@ -164,7 +164,9 @@ function changeLanguage(lang) {
         .catch(error => console.error("Error loading translation file:", error))
 }
 
-function generateReading() {
+function generateReading(inputId) {
+    const inputElement = document.getElementById(inputId)
+    const questionText = inputElement.value.trim()
     // Generate a 19-digit number
     let randomNumber = ''
     for (let i = 0; i < 19; i++) {
@@ -186,7 +188,7 @@ function generateReading() {
         }
     }
 
-    showResult(absoluteNum, pairs)
+    showResult(absoluteNum, pairs, questionText)
 
     const questionResetInput = document.getElementById("questionReset")
     const resetButton = document.querySelector(".new_reading")
@@ -202,7 +204,7 @@ function generateReading() {
     questionResetInput.addEventListener("input", validateResetInput)
 }
 
-function showResult(absoluteNum, minorNums) {
+function showResult(absoluteNum, minorNums, questionText) {
     document.getElementById('start-screen').style.display = 'none'
 
     const resultScreen = document.getElementById('result-screen')
@@ -245,6 +247,14 @@ function showResult(absoluteNum, minorNums) {
 
         minorCardsDiv.appendChild(rowDiv)
     }
+
+    const questionElement = document.getElementById("questionDisplay")
+    clearTimeout(typeWriterTimeout)
+    questionElement.innerHTML = ""
+    typeWriter(
+        document.getElementById("questionDisplay"),
+        [questionText]
+    )
 }
 
 function showPopup(cardNum) {

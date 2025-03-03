@@ -43,14 +43,15 @@
   <div id="start-screen">
     <h2 id="question_prompt" class="typing"></h2>
     <input type="text" id="question" placeholder="Enter your question..."/> 
-    <button class="start_button" onclick="generateReading()" disabled>Launch</button>
+    <button class="start_button" onclick="generateReading('question')" disabled>Launch</button>
   </div>
 
   <div id="result-screen">
+    <h2 id="questionDisplay"></h2>
     <div id="absoluteCard"></div>
     <div class="card-grid" id="minorCards"></div>
     <input type="text" id="questionReset" placeholder="Enter your question..."/> 
-    <button class="new_reading" onclick="generateReading()" disabled>Reset. A new schedule of cards</button>
+    <button class="new_reading" onclick="generateReading('questionReset')" disabled>Reset. A new schedule of cards</button>
   </div>
 
   <div class="popup-bg" id="popupBg">
