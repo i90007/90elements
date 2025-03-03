@@ -35,7 +35,7 @@
         If you develop your intuition, you will eventually not need any fortune-telling deck of cards.
         For spiritual development, I advise you to visit <a href="https://www.nantenamar.com/en" style="color:brown">this site.</a><br/><br/>
         
-        Join my <a href="https://t.me/conspiracistNews" style="color:blue">Telegram channel.</a>
+        Join my <a href="https://t.me/conspiracistNews" style="color:red">Telegram channel.</a>
       </p>
     </div>
   </header>
@@ -54,13 +54,12 @@
     <button class="new_reading" onclick="generateReading('questionReset')" disabled>Reset. A new schedule of cards</button>
   </div>
 
-  <div class="popup-bg" id="popupBg">
-    <div class="popup-content" id="popupContent">
-      <p id="popupText">Here will be a description of the selected card.</p>
-      <button class="close_popup" onclick="closePopup()">Close</button>
+  <div id="popup" class="popup" style="display: none;">
+    <div class="popup-content">
+        <p id="popup-text"></p>
+        <button class="close-btn" onclick="closePopup()">Close</button>
     </div>
   </div>
-
 
   <audio id="mysticSound" src="sounds/1.wav" preload="auto"></audio>
   <audio id="mysticSound" src="sounds/2.wav" preload="auto"></audio>

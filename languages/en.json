@@ -9,7 +9,7 @@
     "placeholder": "Enter your question...",
     "question_prompt1": "Are you ready?",
     "question_prompt2": "Think of a question you want to get an answer to",
-    "info_text": "<p id='info-text'>This is a new fortune-telling system similar to Tarot. Just think clearly about your question and press the button. The cards will give you the answer. If you have problems interpreting the answer, you can ask for help from artificial intelligence (for example, ChatGPT). Modern AI systems are able to think abstractly and can interpret any signs of fate or mysterious dreams. If you develop your intuition, you will eventually not need a fortune-telling deck of cards.<br><br> Join my <a href='https://t.me/conspiracistNews'>Telegram channel.</a></p>",
+    "info_text": "<p id='info-text'>This is a new fortune-telling system similar to Tarot. Just think clearly about your question and press the button. The cards will give you the answer. If you have problems interpreting the answer, you can ask for help from artificial intelligence (for example, ChatGPT). Modern AI systems are able to think abstractly and can interpret any signs of fate or mysterious dreams. If you develop your intuition, you will eventually not need a fortune-telling deck of cards.<br><br> Join my <a href='https://t.me/conspiracistNews' style='color:red'>Telegram channel.</a></p>",
     "cardDescriptions": {
         "0": {
             "name": "Source of Everything. Freedom",

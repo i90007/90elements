@@ -3,6 +3,7 @@
 let typeWriterTimeout
 let sounds = []
 let cardDescriptions = {}
+let cardN = 0
 
 document.addEventListener("DOMContentLoaded", function () {
     sounds = [
@@ -159,6 +160,8 @@ function changeLanguage(lang) {
             document.getElementById("question").placeholder = data.placeholder
             document.getElementById("questionReset").placeholder = data.placeholder
             document.getElementById("infoPanel").innerHTML = data.info_text
+            document.querySelector(".close-btn").innerText = data.close_popup
+            document.getElementById("popup-text").innerHTML = data.cardDescriptions[cardN].description
             cardDescriptions = data.cardDescriptions
         })
         .catch(error => console.error("Error loading translation file:", error))
@@ -234,7 +237,7 @@ function showResult(absoluteNum, minorNums, questionText) {
             cardEl.onclick = () => showPopup(num)
 
             cardEl.innerHTML = `
-                <div class="card" onclick="showPopup('${num}')">
+                <div class="card">
                     <div>${num}</div>
                     <img src="images/minor${num}.webp" alt="Element ${num}" 
                             onerror="this.onerror=null; this.src='images/absolute0.webp';">
@@ -258,15 +261,24 @@ function showResult(absoluteNum, minorNums, questionText) {
 }
 
 function showPopup(cardNum) {
+    cardN = cardNum
     const desc = cardDescriptions[cardNum].description
 
-    document.getElementById('popupText').innerText = desc
-    document.getElementById('popupBg').style.display = 'flex'
+    const popup = document.getElementById("popup")
+    const popupText = document.getElementById("popup-text")
 
-    document.body.style.filter = 'blur(5px)'
+    popupText.innerHTML = desc
+    popup.style.display = "flex"
+    setTimeout(() => {
+        popup.classList.add("show");
+    }, 99);
 }
 
 function closePopup() {
-    document.getElementById('popupBg').style.display = 'none'
-    document.body.style.filter = 'none'
+    const popup = document.getElementById("popup")
+
+    popup.classList.remove("show")
+    setTimeout(() => {
+        popup.style.display = "none"
+    }, 999)
 }

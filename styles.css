@@ -84,7 +84,7 @@ header {
     color: #fff;
     padding: 10px 15px;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
@@ -103,7 +103,7 @@ header {
     position: absolute;
     background: rgba(30, 30, 30, 0.5);
     min-width: 150px;
-    border-radius: 6px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
     opacity: 0;
@@ -149,7 +149,7 @@ header {
     color: #fff;
     padding: 10px 15px;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
@@ -214,7 +214,7 @@ header {
     font-size: 1.5rem;
     padding: 1rem 2rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     margin-top: 2rem;
     animation: pulse 2s infinite;
@@ -341,34 +341,50 @@ header {
     width: 50%;
 }
 
-.popup-bg {
+.popup {
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
     background: rgba(0,0,0,0.6);
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 999;
-    backdrop-filter: blur(5px);
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.popup.show {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .popup-content {
-    background: #222;
-    padding: 1rem;
-    max-width: 90%;
-    border: 1px solid #444;
-    border-radius: 8px;
-    text-align: left;
+    position: relative;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0) 100%);
+    color: black;
+    padding: 20px;
+    max-width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 110;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
 }
 
-.close_popup {
-    background: #444;
-    color: red;
+.close-btn {
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
     border: none;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 10px;
     cursor: pointer;
+    font-size: 16px;
+    z-index: 120;
+    animation: pulse 2s infinite;
 }
 
 .new_reading {
@@ -379,7 +395,7 @@ header {
     padding: 1rem 2rem;
     cursor: pointer;
     font-size: 1rem;
-    border-radius: 8px;
+    border-radius: 10px;
     animation: pulse 2s infinite;
 }
 
