@@ -13,7 +13,8 @@ body {
         rgba(13, 13, 13, 0.6),
         rgba(13, 13, 13, 0.5),
         rgba(13, 13, 13, 0.4),
-        rgba(13, 13, 13, 0.3)
+        rgba(13, 13, 13, 0.3),
+        rgba(13, 13, 13, 0.2)
     );
     background-size: 400% 400%;
     animation: smoothFog 40s ease-in-out infinite;
@@ -37,8 +38,7 @@ body::before {
     width: 100%;
     height: 100%;
     background: url('images/DCVu.gif');
-    animation: foggyLayer 50s ease-in-out infinite;
-    opacity: 0.2;
+    opacity: 0.3;
     filter: blur(9px);
     pointer-events: none;
 }
@@ -469,5 +469,13 @@ input {
     }
     .img_box {
         display: none;
+    }
+    body {
+        background-size: 99% 99%;
+        animation: none;
+    }
+    body::before {
+        opacity: 0.2;
+        filter: blur(4px);
     }
 }
