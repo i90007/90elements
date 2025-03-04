@@ -464,6 +464,6 @@ input {
         width: 200px;
     }
     .img_box {
-        width: 50%;
+        display: none;
     }
 }
