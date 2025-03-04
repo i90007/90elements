@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!infoPanel.classList.contains("active")) {
                 infoPanel.style.visibility = "hidden"
             }
-        }, 1000)
+        }, 999)
     })
 
     infoButton.addEventListener("click", function (event) {
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (!infoPanel.classList.contains("active")) {
                     infoPanel.style.visibility = "hidden"
                 }
-            }, 1000)
+            }, 999)
         }
         if (!languageButton.contains(event.target) && !languageMenu.contains(event.target)) {
             languageMenu.classList.remove("active")
@@ -124,7 +124,7 @@ function typeWriter(textElement, phrases) {
                 isDeleting = false
                 currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length
                 index = 0
-                typeWriterTimeout = setTimeout(type, 999)
+                typeWriterTimeout = setTimeout(type, 1111)
             }
         }
     }
@@ -162,6 +162,13 @@ function changeLanguage(lang) {
             document.getElementById("infoPanel").innerHTML = data.info_text
             document.querySelector(".close-btn").innerText = data.close_popup
             document.getElementById("popup-text").innerHTML = data.cardDescriptions[cardN].description
+            if (window.innerWidth > 900) {
+                document.querySelector(".dropdown_btn").innerText = data.language_selector
+                document.querySelector(".info_button").innerText = data.info_button
+            } else {
+                document.querySelector(".dropdown_btn").innerText = data.language_selectorM
+                document.querySelector(".info_button").innerText = data.info_buttonM
+            }
             cardDescriptions = data.cardDescriptions
         })
         .catch(error => console.error("Error loading translation file:", error))
@@ -290,7 +297,7 @@ function startAnimation(absoluteNum, pairs, questionText) {
     floatingCardsContainer.innerHTML = ""
 
     const totalCards = 90
-    const numberOfFlyingCards = 9
+    const numberOfFlyingCards = 20
     const defaultImage = "images/absolute0.webp"
 
     const selectedCards = new Set();
@@ -305,7 +312,7 @@ function startAnimation(absoluteNum, pairs, questionText) {
         imgElement.src = imgSrc;
         imgElement.classList.add("floating-card");
 
-        imgElement.style.left = Math.random() * 80 + "vw";
+        imgElement.style.left = Math.random() * 67 + "vw";
         imgElement.style.animationDuration = Math.random() * 2 + 2 + "s";
 
         imgElement.onerror = () => { imgElement.src = defaultImage; };

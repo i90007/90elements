@@ -2,6 +2,8 @@
     "title": "Divination system ✨",
     "logo": "🔮 90 elements",
     "language_selector": "🌍 Choose language ▼",
+    "language_selectorM": "🌍 Language ▼",
+    "info_buttonM": "ℹ️ About",
     "info_button": "ℹ️ About project",
     "start_button": "Launch",
     "close_popup": "Close",
