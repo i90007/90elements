@@ -29,13 +29,15 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 ////////////////////////
 
-    const music = document.getElementById("backgroundMusic")
-    music.volume = 0.1
-    // Play music only after user interaction (bypassing browser auto-blocking)
-    document.body.addEventListener("click", function startMusic() {
-        music.play().catch(error => console.log("Autoplay music is blocked by the browser:", error))
-        document.body.removeEventListener("click", startMusic)
-    })
+    if (window.innerWidth > 900) {
+        const music = document.getElementById("backgroundMusic")
+        music.volume = 0.1
+        // Play music only after user interaction (bypassing browser auto-blocking)
+        document.body.addEventListener("click", function startMusic() {
+            music.play().catch(error => console.log("Autoplay music is blocked by the browser:", error))
+            document.body.removeEventListener("click", startMusic)
+        })
+    }
 ////////////////////////
 
     const savedLang = localStorage.getItem("language") || "en"
@@ -265,6 +267,10 @@ function showResult(absoluteNum, minorNums, questionText) {
         document.getElementById("questionDisplay"),
         [questionText]
     )
+
+    document.querySelectorAll("img").forEach(img => {
+        img.addEventListener("click", playRandomSound)
+    }) 
 }
 
 function showPopup(cardNum) {
