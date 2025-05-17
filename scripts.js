@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
         infoPanel.classList.toggle("active")
         infoPanel.style.visibility = "visible"
         languageMenu.classList.remove("active")
+        document.body.style.overflowY = 'auto'
     })
 ////////////////////////
 
