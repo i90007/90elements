@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         if (!languageButton.contains(event.target) && !languageMenu.contains(event.target)) {
             languageMenu.classList.remove("active")
+            infoPanel.style.visibility = "hidden"
         }
     }
 
@@ -217,6 +218,7 @@ function generateReading(inputId) {
 }
 
 function showResult(absoluteNum, minorNums, questionText) {
+    document.body.style.overflowY = 'auto'
     document.getElementById('start-screen').style.display = 'none'
 
     const resultScreen = document.getElementById('result-screen')

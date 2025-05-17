@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
     background: radial-gradient(
         circle,
         rgb(13, 13, 13), 
@@ -54,6 +54,7 @@ header, footer {
 header {
     position: relative;
     z-index: 10000;
+    display: none;
 }
 
 .top-bar {
@@ -168,6 +169,7 @@ header {
     top: 60px;
     left: 0px;
     padding: 15px;
+    padding-bottom: 60px;
     opacity: 0;
     transform: translateY(-20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
